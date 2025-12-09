@@ -19,7 +19,7 @@ public class AirplaneController : MonoBehaviour
     public float rollSpeed = 45f;
     public float yawSpeed = 30f;
 
-    private float activeSpeed; // O anki güncel hızımız
+    public float activeSpeed; // O anki güncel hızımız
 
     private void OnEnable()
     {
